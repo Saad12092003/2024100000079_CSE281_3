@@ -22,7 +22,7 @@ class BankAccount extends Account {
         this.holderName = holderName;
     }
 
-    @Override
+    
     void displayInfo() {
 
         super.displayInfo();
@@ -30,7 +30,6 @@ class BankAccount extends Account {
         System.out.println("Holder Name: " + holderName);
     }
 
-    @Override
     void calculateInterest() {
 
         double interest = getBalance() * 0.0;
