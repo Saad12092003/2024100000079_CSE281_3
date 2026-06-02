@@ -19,7 +19,5 @@ class CurrentAccount extends BankAccount {
         System.out.println("Account Type: Current Account");
 
         super.displayInfo();
-
-        calculateInterest();
     }
 }

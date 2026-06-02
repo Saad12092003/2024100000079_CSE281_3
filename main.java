@@ -11,6 +11,7 @@ public class main {
         for (Account acc : accounts) {
 
             acc.displayInfo();
+            acc.calculateInterest();
             System.out.println(" ");
       
 

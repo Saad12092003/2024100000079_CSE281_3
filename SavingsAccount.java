@@ -19,6 +19,5 @@ class SavingsAccount extends BankAccount {
 
         super.displayInfo();
 
-       calculateInterest();
     }
 }
